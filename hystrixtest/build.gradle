@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'com.wwb.hystrixtest'
+
+sourceCompatibility = 1.8
+
+repositories {
+    maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.netflix.hystrix:hystrix-core:1.5.18'
+}

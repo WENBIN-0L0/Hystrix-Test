@@ -1,0 +1,3 @@
+rootProject.name = 'Hystrix-Test'
+include 'hystrixtest'
+
