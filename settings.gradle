@@ -1,3 +1,4 @@
 rootProject.name = 'Hystrix-Test'
 include 'hystrixtest'
+include 'rxjava2test'
 
